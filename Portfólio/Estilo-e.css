@@ -1,0 +1,56 @@
+.destaque{
+    color: orangered;
+    font-size: 25px;
+}
+.cabeç{
+    float: left;
+    text-align: center;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+@media ( max-width: 600px){
+    .ex{
+        width: 48%;
+        text-align: center;
+        background-color: orangered;
+        border-radius: 10px;
+        margin: 1%;
+        float: left;
+    }
+    img{
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .Al{
+        font-size: 25px;
+        font-variant:small-caps;
+        font-family: arial, sans-serif;
+        background-color: white;
+    }
+}
+@media(min-width :600px){
+    .ex{
+        width: 23%;
+        text-align: center;
+        background-color: orangered;
+        border-radius: 10px;
+        margin: 1%;
+        float: left;
+
+    }
+    img{
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    .Al{
+        font-size: 25px;
+        font-variant:small-caps;
+        font-family: arial, sans-serif;
+        background-color: white;
+    }
+}
+

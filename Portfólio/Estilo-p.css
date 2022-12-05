@@ -1,0 +1,14 @@
+.destaque{
+    color: orangered;
+    font-size: 25px;
+}
+.cabeç{
+    float: left;
+    text-align: center;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+p,label{
+    color: white;
+}

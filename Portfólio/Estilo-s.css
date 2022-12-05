@@ -1,0 +1,69 @@
+.destaque{
+    color: orangered;
+    font-size: 25px;
+}
+.cabeç{
+    float: left;
+    text-align: center;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+div{
+    float: left;
+}
+p,label{
+    color: white;
+}
+h1,h2,label{
+    color: orangered;
+
+}
+img{
+    border-radius: 10px;
+    margin: 20px;
+    margin-right: 40px;
+    width: 350px;
+    transform: rotate(-5deg);
+}
+.elem {
+    background: #021581;
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+    animation: moveToLeft 6s linear infinite;
+    animation-delay: 100ms;
+    margin-left: 10px;
+    
+  }
+
+  @keyframes moveToLeft {
+    0% {
+      transform: translateX(0px);
+      background: linear-gradient(
+        to right,
+        #ff8177 0%,
+        #ff867a 0%,
+        #ff8c7f 21%,
+        #f99185 52%,
+        #cf556c 78%,
+        #b12a5b 100%
+      );
+    }
+    25% {
+      transform: translateX(400px);
+      background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+    50% {
+      transform: translateY(200px) translateX(400px);
+      background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    }
+
+    75% {
+      transform: translateX(0px) translateY(200px);
+      background: linear-gradient(120deg, #65f678 0%, #fda085 100%);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }

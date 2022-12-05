@@ -1,0 +1,26 @@
+div{
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+p{
+    color: white;
+}
+.destaque{
+    color: orangered;
+    font-size: 25px;
+}
+
+
+.icons{width:40px;
+    height:40px;
+    margin-left: 10px;
+}
+.cabeç{
+    float: left;
+    text-align: center;
+    margin: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
